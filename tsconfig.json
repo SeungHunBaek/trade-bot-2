@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@passive-money/config": ["packages/config/src"],
+      "@passive-money/common": ["packages/common/src"],
+      "@passive-money/database": ["packages/database/src"],
+      "@passive-money/exchange": ["packages/exchange/src"]
+    }
+  },
+  "references": [
+    { "path": "packages/config" },
+    { "path": "packages/common" },
+    { "path": "packages/database" },
+    { "path": "packages/exchange" }
+  ],
+  "exclude": ["node_modules", "dist", "apps"]
+}
