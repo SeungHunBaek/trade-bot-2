@@ -6,6 +6,12 @@ node_modules/
 dist/
 build/
 *.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+!.eslintrc.js
+!jest.config.js
 
 # Environment
 .env
