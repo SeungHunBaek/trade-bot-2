@@ -2,6 +2,8 @@ export * from './candle.entity';
 export * from './exchange.entity';
 export * from './account.entity';
 export * from './api-credential.entity';
+export * from './user.entity';
+export * from './user-api-key.entity';
 export * from './strategy.entity';
 export * from './strategy-version.entity';
 export * from './strategy-instance.entity';
